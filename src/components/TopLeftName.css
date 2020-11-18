@@ -1,0 +1,10 @@
+.cs-top {
+  font-family: 'Open Sans';
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 900;
+}

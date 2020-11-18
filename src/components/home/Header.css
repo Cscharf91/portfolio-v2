@@ -1,0 +1,159 @@
+.header {
+  height: 98vh;
+  padding: 10px;
+  background: #3a0d0d;
+}
+
+.hero-grid {
+  width: 60%;
+  margin: 250px auto 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  color: white;
+}
+
+.hero-section {
+  padding: 10px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.hero-section p {
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.hero-main {
+  width: 60%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 4fr 5fr;
+}
+
+.hero-intro {
+  font-size: 38px;
+  color: white;
+  font-weight: 700;
+  letter-spacing: -1px;
+  line-height: 42px;
+  text-align: right;
+}
+
+.hero-bio {
+  color: white;
+  text-align: left;
+  margin: 50px 0 0 30px;
+  font-size: 18px;
+}
+
+.fade-in-fast {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1.2s;
+}
+
+.fade-in-slow {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1.8s;
+}
+
+.slide-in {
+  position: relative;
+  left: -400px;
+  -webkit-animation: slide 0.5s forwards;
+  animation: slide 0.5s forwards;
+}
+
+.slide-in-right {
+  position: relative;
+  left: 400px;
+  -webkit-animation: slide 0.5s forwards;
+  animation: slide 0.5s forwards;
+}
+
+.hero-links {
+  width: 60%;
+  margin: auto;
+  display: grid;
+  justify-content: start;
+}
+
+.line-separater {
+  border-left: 1px solid white;
+}
+
+@-webkit-keyframes slide {
+  100% { left: 0; }
+}
+
+@keyframes slide {
+  100% { left: 0; }
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@media (max-width: 1250px) {
+  .hero-grid {
+    width: 80%;
+    margin: 200px auto 0 auto;
+  }
+
+  .hero-main {
+      width: 80%;
+  }
+
+  .hero-links {
+    width: 80%;
+  }
+}
+
+@media (max-width: 560px) {
+  .header {
+    height: auto;
+  }
+
+  .hero-grid {
+    width: 100%;
+    margin: 100px auto 0 auto;
+    grid-template-columns: 1fr;
+  }
+
+  .hero-main {
+    grid-template-columns: 1fr;
+    margin-bottom: 30px;
+    width: 60%;
+  }
+
+  .hero-links {
+    width: 60%;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+  }
+
+  .hero-bio {
+    margin-top: 0;
+  }
+}
