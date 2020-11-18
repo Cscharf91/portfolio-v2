@@ -54,3 +54,13 @@ code {
   color:  white;
   background: #3a0d0d;;
 }
+
+@media (max-width: 500px) {
+  .nav-btn {
+    font-size: 14px;
+  }
+
+  .nav-btn-inverted {
+    font-size: 14px;
+  }
+}

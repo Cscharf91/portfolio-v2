@@ -52,3 +52,9 @@
     width: 90%;
   }
 }
+
+@media (max-width: 600px) {
+  .project-pic {
+    width: 300px;
+  }
+}

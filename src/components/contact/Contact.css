@@ -44,9 +44,23 @@
   color: white;
 }
 
+.contact-grid-item {
+  display: grid;
+  justify-items: center;
+}
+
 @media (max-width: 1360px) {
   .contact-grid {
     width: 100%;
+  }
+
+  .social-icon {
+    width: 40px;
+  }
+
+  .email-icon {
+    width: 50px;
+    margin-top: -10px;
   }
 
   .contact-wrapper {
@@ -61,5 +75,9 @@
 
   .contact-wrapper {
     width: 100%;
+  }
+
+  .contact-grid {
+    width: auto;    
   }
 }

@@ -14,7 +14,7 @@ const Projects = () => {
             <div className="project-container">
                 <div className="project-title-wrapper">
                   <p className="project-title">Trade Tracker:</p>
-                  <p className="project-bio">Built in Rails and React to enter stock trade data to see how different stategies are performing. Based on how I screen my own stocks to help track data.</p>
+                  <p className="project-bio">Built in Rails and React to enter stock trade data to see how different stategies are performing. The filters are based on my own experience trading.</p>
                 </div>
                 <a href="https://powerful-chamber-15419.herokuapp.com/" rel="noopener noreferrer" target="_blank"><img src={TradeTracker} alt="Trade Tracker" className="project-pic" /></a><br />
                 <div className="project-desc">
