@@ -74,7 +74,7 @@ const Projects = () => {
                 <p className="project-title">Chess:</p>
                 <a href="https://repl.it/@Cscharf91/chess" rel="noopener noreferrer" target="_blank"><img src={Chess} alt="Chess" className="project-pic" /></a><br />
                 <div className="project-desc">
-                    <p className="project-bio">Another classic game, made in Ruby to play in the command line. Save and load your games at any point with serialization!</p>
+                    <p className="project-bio">The classic game, made in Ruby to play in the command line. Save and load your games at any point with serialization!</p>
                 </div>
                 <div className="btn-container">
                     <a className="nav-btn-inverted" href="https://repl.it/@Cscharf91/chess" rel="noopener noreferrer" target="_blank">View Repl.it</a>
