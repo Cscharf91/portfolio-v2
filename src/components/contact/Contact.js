@@ -8,7 +8,7 @@ import Email from '../../images/email-icon.png';
 const Contact = (props) => {
   return (
     <div className="contact">
-        <Nav title={props.title} />
+        <Nav title="Contact" />
         <div className="contact-wrapper">
           <div className="contact-text">
             <h3>Let's get in touch!</h3>

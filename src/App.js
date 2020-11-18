@@ -11,16 +11,8 @@ function App() {
       <TopLeftName />
       <Switch>
         <Route exact path="/" component={Header}/>
-        <Route exact path="/projects" 
-        render={props => <Projects {...props}
-        title="Projects"
-        />}
-        />
-        <Route exact path="/contact" 
-        render={props => <Contact {...props}
-        title="Contact"
-        />}
-        />
+        <Route exact path="/projects" component={Projects}/>
+        <Route exact path="/contact" component={Contact}/>
       </Switch>
     </Router>
   );

@@ -6,10 +6,10 @@ import FBClone from '../../images/fb-clone.png';
 import Chess from '../../images/chess.png';
 import './Projects.css';
 
-const Projects = (props) => {
+const Projects = () => {
   return (
       <div className="projects">
-        <Nav title={props.title} />
+        <Nav title="Projects" />
         <div className="projects-section">
             <div className="project-container">
                 <div className="project-title-wrapper">
