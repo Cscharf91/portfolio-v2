@@ -7,6 +7,7 @@ import Chess from '../../images/chess.png';
 import './Projects.css';
 
 const Projects = () => {
+  document.body.classList.remove('red-bg');
   return (
       <div className="projects">
         <Nav title="Projects" />
@@ -14,10 +15,10 @@ const Projects = () => {
             <div className="project-container">
                 <div className="project-title-wrapper">
                   <p className="project-title">Trade Tracker:</p>
-                  <p className="project-bio">Built in Rails and React to enter stock trade data to see how different stategies are performing. The filters are based on my own experience trading.</p>
                 </div>
                 <a href="https://powerful-chamber-15419.herokuapp.com/" rel="noopener noreferrer" target="_blank"><img src={TradeTracker} alt="Trade Tracker" className="project-pic" /></a><br />
                 <div className="project-desc">
+                    <p className="project-bio">Built in Rails and React to enter stock trade data to see how different stategies are performing. The filters are based on my own experience trading.</p>
                     <p>Features:</p>
                     <ul>
                         <li>User authorization with Devise, keeping each user's trades private</li>
@@ -33,9 +34,9 @@ const Projects = () => {
             </div>
             <div className="project-container">
                 <p className="project-title">RJS Billing:</p>
-                <p className="project-bio">A mock-up collection agency website. Made in Rails. Try out admin abilities with username: guest@guest.com password: guestpass1.</p>
                 <a href="https://evening-ridge-12770.herokuapp.com/" rel="noopener noreferrer" target="_blank"><img src={RJS} alt="RJS-billing" className="project-pic" /></a><br />
                 <div className="project-desc">
+                    <p className="project-bio">A mock-up collection agency website. Made in Rails. Try out admin abilities with username: guest@guest.com password: guestpass1.</p>
                     <p>Features:</p>
                     <ul>
                         <li>Full admin-only functionality</li>
@@ -51,9 +52,9 @@ const Projects = () => {
             </div>
             <div className="project-container">
                 <p className="project-title">BookFace:</p>
-                <p className="project-bio">A social network website based off of Facebook. Created in Rails.</p>
                 <a href="https://fast-sierra-54264.herokuapp.com/" rel="noopener noreferrer" target="_blank"><img src={FBClone} alt="fb-clone" className="project-pic" /></a><br />
                 <div className="project-desc">
+                    <p className="project-bio">A social network website based off of Facebook. Created in Rails.</p>
                     <p>Features:</p>
                     <ul>
                         <li>Create a user, upload your profile picture, and edit your profile info</li>
@@ -71,14 +72,11 @@ const Projects = () => {
             </div>
             <div className="project-container">
                 <p className="project-title">Chess:</p>
-                <p className="project-bio">Another classic game, made in Ruby to play in the command line.</p>
                 <a href="https://repl.it/@Cscharf91/chess" rel="noopener noreferrer" target="_blank"><img src={Chess} alt="Chess" className="project-pic" /></a><br />
                 <div className="project-desc">
+                    <p className="project-bio">Another classic game, made in Ruby to play in the command line.</p>
                     <p>Features:</p>
                     <ul>
-                        <li>All legal chess moves (including castling/en passant) developed with a full coordinate based grid system using arrays</li>
-                        <li>Each player's move is reviewed every turn for check conditions</li>
-                        <li>If there's a check, all moves in response are reviewed for checkmate</li>
                         <li>Save and load your games at any point with serialization</li>
                     </ul>
                 </div>

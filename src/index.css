@@ -20,14 +20,21 @@ code {
   margin-left: 20px;
 }
 
+.red-bg {
+  background: #3a0d0d;
+}
+
 .nav-btn {
   transition: 0.7s;
   margin-left: 30px;
+  margin-top: 10px;
   margin-bottom: 30px;
-  font-size: 20px;
+  font-size: 28px;
   color: white;
   padding: 10px;
   text-decoration: none;
+  display: grid;
+  justify-items: center;
   padding: 10px;
   border: 1px solid white;
 }

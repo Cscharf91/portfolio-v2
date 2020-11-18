@@ -7,6 +7,7 @@ import Email from '../../images/email-icon.png';
 import HeadShot from '../../images/headshot.png';
 
 const Contact = (props) => {
+  document.body.classList.remove('red-bg');
   return (
     <div className="contact">
         <Nav title="Contact" />

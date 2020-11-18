@@ -20,7 +20,7 @@
 }
 
 .projects-section {
-  width: 45%;
+  width: 750px;
   margin: auto;
 }
 
@@ -49,11 +49,11 @@
 
 @media (max-width: 1200px) {
   .projects-section {
-    width: 90%;
+    width: 100%;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .project-pic {
     width: 300px;
   }
