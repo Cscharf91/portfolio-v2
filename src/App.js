@@ -10,9 +10,9 @@ function App() {
     <Router>
       <TopLeftName />
       <Switch>
-        <Route exact path="/" component={Header}/>
-        <Route exact path="/projects" component={Projects}/>
-        <Route exact path="/contact" component={Contact}/>
+        <Route exact path={process.env.PUBLIC_URL + '/'} component={Header}/>
+        <Route exact path={process.env.PUBLIC_URL + '/projects'} component={Projects}/>
+        <Route exact path={process.env.PUBLIC_URL + '/contact'} component={Contact}/>
       </Switch>
     </Router>
   );
