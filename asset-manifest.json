@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e929cb4b.chunk.css",
+    "main.js": "/static/js/main.cdbe3de0.chunk.js",
+    "main.js.map": "/static/js/main.cdbe3de0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f07665b5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f07665b5.js.map",
+    "static/js/2.125c668c.chunk.js": "/static/js/2.125c668c.chunk.js",
+    "static/js/2.125c668c.chunk.js.map": "/static/js/2.125c668c.chunk.js.map",
+    "static/js/3.cfd40a59.chunk.js": "/static/js/3.cfd40a59.chunk.js",
+    "static/js/3.cfd40a59.chunk.js.map": "/static/js/3.cfd40a59.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.e929cb4b.chunk.css.map": "/static/css/main.e929cb4b.chunk.css.map",
+    "static/js/2.125c668c.chunk.js.LICENSE.txt": "/static/js/2.125c668c.chunk.js.LICENSE.txt",
+    "static/media/chess.27ed0717.png": "/static/media/chess.27ed0717.png",
+    "static/media/fb-clone.2a9b5bef.png": "/static/media/fb-clone.2a9b5bef.png",
+    "static/media/rjs-billing.70fce7f7.png": "/static/media/rjs-billing.70fce7f7.png",
+    "static/media/trade-tracker-preview.90d0a834.png": "/static/media/trade-tracker-preview.90d0a834.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f07665b5.js",
+    "static/js/2.125c668c.chunk.js",
+    "static/css/main.e929cb4b.chunk.css",
+    "static/js/main.cdbe3de0.chunk.js"
+  ]
+}
