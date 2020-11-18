@@ -17,10 +17,17 @@
   margin-top: -20px;
 }
 
+.headshot {
+  margin: auto;
+  margin-top: 10px;
+  width: 130px;
+  border-radius: 80%;
+}
+
 .contact-grid {
   width: 85%;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 10px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
@@ -32,12 +39,13 @@
   width: 40%;
   margin: auto;
   margin-top: 100px;
+  display: grid;
+  align-items: center;
   /* border: 1px solid #a3a3a3; */
 }
 
 .contact-text {
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-radius: 30px;
   background: #3a0d0d;
   border-bottom: 10px solid #5c2525;
   padding: 35px;

@@ -4,7 +4,7 @@ import './Contact.css';
 import GitHub from '../../images/github-icon.png';
 import LinkedIn from '../../images/linkedin-icon.png';
 import Email from '../../images/email-icon.png';
-// import HeadShot from '../../images/headshot.png';
+import HeadShot from '../../images/headshot.png';
 
 const Contact = (props) => {
   return (
@@ -15,7 +15,7 @@ const Contact = (props) => {
             <h3>Let's get in touch!</h3>
             <p>If you would like to contact me regarding anything on this website or my projects, feel free to reach me at:</p>
           </div>
-        {/* <img className="headshot" src={HeadShot} alt="Headshot"/> */}
+          <img className="headshot" src={HeadShot} alt="Headshot"/>
           <div className="contact-grid">
             <a href="mailto: cscharf91@gmail.com">
               <div className="contact-grid-item">

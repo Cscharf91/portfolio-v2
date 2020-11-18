@@ -13,11 +13,6 @@
   color: white;
 }
 
-.headshot {
-  width: 100px;
-  border-radius: 100%;
-}
-
 .hero-section {
   padding: 10px;
   display: grid;
