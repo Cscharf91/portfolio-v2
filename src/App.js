@@ -7,12 +7,12 @@ import Contact from './components/contact/Contact';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <TopLeftName />
       <Switch>
-        <Route exact path={process.env.PUBLIC_URL + '/'} component={Header}/>
-        <Route exact path={process.env.PUBLIC_URL + '/projects'} component={Projects}/>
-        <Route exact path={process.env.PUBLIC_URL + '/contact'} component={Contact}/>
+        <Route exact path="/" component={Header}/>
+        <Route exact path="/projects" component={Projects}/>
+        <Route exact path="/contact" component={Contact}/>
       </Switch>
     </Router>
   );
