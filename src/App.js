@@ -7,7 +7,7 @@ import Contact from './components/contact/Contact';
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename='/'>
       <TopLeftName />
       <Switch>
         <Route exact path="/" component={Header}/>
