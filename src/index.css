@@ -35,8 +35,10 @@ code {
   text-decoration: none;
   display: grid;
   justify-items: center;
+  align-items: center;
   padding: 10px;
   border: 1px solid white;
+  text-align: center;
 }
 
 .nav-btn:hover {
@@ -64,7 +66,7 @@ code {
 
 @media (max-width: 500px) {
   .nav-btn {
-    font-size: 14px;
+    font-size: 18px;
   }
 
   .nav-btn-inverted {

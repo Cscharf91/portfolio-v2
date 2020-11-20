@@ -39,8 +39,8 @@ const Header = () => {
         When I'm not developing, I enjoy playing the piano, hiking, video games, and working out.</p>
       </div>
       <div className="hero-links slide-in-right">
-        <a className="nav-btn" href="/projects/">Projects</a>
-        <a className="nav-btn" href="/contact/">Contact</a>
+        <a className="nav-btn" href="/projects/">View My Projects!</a>
+        <a className="nav-btn" href="/contact/">Contact Me</a>
       </div>
     </div>
   );
