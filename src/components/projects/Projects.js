@@ -18,7 +18,7 @@ const Projects = () => {
                 </div>
                 <a href="https://powerful-chamber-15419.herokuapp.com/" rel="noopener noreferrer" target="_blank"><img src={TradeTracker} alt="Trade Tracker" className="project-pic" /></a><br />
                 <div className="project-desc">
-                    <p className="project-bio">Built in Rails and React. Enter stock trade data to see how different stategies are performing. The filters are based on my own experience trading.</p>
+                    <p className="project-bio">Built in Rails and React. Enter stock trade data to see how different strategies are performing. The filters are based on my own experience trading.</p>
                     <p>Features:</p>
                     <ul>
                         <li>User authorization with Devise, keeping each user's trades private</li>
