@@ -31,8 +31,7 @@ const Projects = () => {
                 </div>
                 <div className="btn-container">
                     <a className="nav-btn-inverted" href="https://trusting-ritchie-77abd5.netlify.app/" rel="noopener noreferrer" target="_blank">View Website</a>
-                    <a className="nav-btn-inverted" href="https://github.com/Cscharf91/ceddit-frontend" rel="noopener noreferrer" target="_blank">View Front End Code</a> 
-                    <a className="nav-btn-inverted" href="https://github.com/Cscharf91/creddit-backend" rel="noopener noreferrer" target="_blank">View Back End Code</a> 
+                    <a className="nav-btn-inverted" href="https://github.com/Cscharf91/ceddit-frontend" rel="noopener noreferrer" target="_blank">View Code</a> 
                 </div>
             </div>
             <div className="project-container">
