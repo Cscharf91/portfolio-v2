@@ -18,7 +18,7 @@ const Projects = () => {
                 <a href="https://repl.it/@Cscharf91/chess" rel="noopener noreferrer" target="_blank"><img src={Creddit} alt="Creddit preview 1" className="project-pic" /></a><br /><br />
                 <a href="https://repl.it/@Cscharf91/chess" rel="noopener noreferrer" target="_blank"><img src={Creddit2} alt="Creddit preview 2" className="project-pic" /></a><br />
                 <div className="project-desc">
-                    <p className="project-bio">Build with Node.js, Express, MongoDB, and React. A website to share photos and have discussions, and vote on the best content!</p>
+                    <p className="project-bio">Built with Node.js, Express, MongoDB, and React. A website to share photos and have discussions, and vote on the best content!</p>
                     <p>Features:</p>
                     <ul>
                         <li>Create Zones (akin to Subreddits): a little section of Creddit to discuss any topic or hobby (ex: pics, pets, fitness, gaming)</li>
