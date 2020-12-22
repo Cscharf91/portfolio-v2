@@ -15,8 +15,8 @@ const Projects = () => {
         <div className="projects-section">
             <div className="project-container">
                 <p className="project-title">Creddit:</p>
-                <a href="https://repl.it/@Cscharf91/chess" rel="noopener noreferrer" target="_blank"><img src={Creddit} alt="Creddit preview 1" className="project-pic" /></a><br /><br />
-                <a href="https://repl.it/@Cscharf91/chess" rel="noopener noreferrer" target="_blank"><img src={Creddit2} alt="Creddit preview 2" className="project-pic" /></a><br />
+                <a href="https://trusting-ritchie-77abd5.netlify.app/" rel="noopener noreferrer" target="_blank"><img src={Creddit} alt="Creddit preview 1" className="project-pic" /></a><br /><br />
+                <a href="https://trusting-ritchie-77abd5.netlify.app/" rel="noopener noreferrer" target="_blank"><img src={Creddit2} alt="Creddit preview 2" className="project-pic" /></a><br />
                 <div className="project-desc">
                     <p className="project-bio">Built with Node.js, Express, MongoDB, and React. A website to share photos and have discussions, and vote on the best content!</p>
                     <p>Features:</p>
@@ -30,8 +30,9 @@ const Projects = () => {
                     </ul>
                 </div>
                 <div className="btn-container">
-                    <a className="nav-btn-inverted" href="https://powerful-chamber-15419.herokuapp.com/" rel="noopener noreferrer" target="_blank">View Website</a>
-                    <a className="nav-btn-inverted" href="https://github.com/Cscharf91/stock-trade-tracker" rel="noopener noreferrer" target="_blank">View Code</a> 
+                    <a className="nav-btn-inverted" href="https://trusting-ritchie-77abd5.netlify.app/" rel="noopener noreferrer" target="_blank">View Website</a>
+                    <a className="nav-btn-inverted" href="https://github.com/Cscharf91/ceddit-frontend" rel="noopener noreferrer" target="_blank">View Front End Code</a> 
+                    <a className="nav-btn-inverted" href="https://github.com/Cscharf91/creddit-backend" rel="noopener noreferrer" target="_blank">View Back End Code</a> 
                 </div>
             </div>
             <div className="project-container">
