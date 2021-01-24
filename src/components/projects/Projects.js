@@ -63,12 +63,12 @@ const Projects = () => {
                     <ul>
                         <li>Full admin-only functionality</li>
                         <li>Search for collections by various critieria to narrow down who to contact</li>
-                        <li>Scan images and add time-stamped notes to each collection</li>
+                        <li>Scan images to an AWS S3 Bucket and add time-stamped notes to each collection</li>
                         <li>Separate sign-up form for billers, which notifies admins</li>
                     </ul>
                 </div>
                 <div className="btn-container">
-                    <a className="nav-btn-inverted" href="https://evening-ridge-12770.herokuapp.com/" rel="noopener noreferrer" target="_blank">View Website</a>
+                    {/* <a className="nav-btn-inverted" href="https://evening-ridge-12770.herokuapp.com/" rel="noopener noreferrer" target="_blank">View Website</a> */}
                     <a className="nav-btn-inverted" href="https://github.com/Cscharf91/collections-site" rel="noopener noreferrer" target="_blank">View Code</a> 
                 </div>
             </div>
