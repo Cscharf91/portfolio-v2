@@ -68,7 +68,7 @@ const Projects = () => {
                     </ul>
                 </div>
                 <div className="btn-container">
-                    {/* <a className="nav-btn-inverted" href="https://evening-ridge-12770.herokuapp.com/" rel="noopener noreferrer" target="_blank">View Website</a> */}
+                    <a className="nav-btn-inverted" href="https://evening-ridge-12770.herokuapp.com/" rel="noopener noreferrer" target="_blank">View Website</a>
                     <a className="nav-btn-inverted" href="https://github.com/Cscharf91/collections-site" rel="noopener noreferrer" target="_blank">View Code</a> 
                 </div>
             </div>
@@ -88,7 +88,7 @@ const Projects = () => {
                     </ul>
                 </div>
                 <div className="btn-container">
-                    <a className="nav-btn-inverted" href="https://fast-sierra-54264.herokuapp.com/" rel="noopener noreferrer" target="_blank">View Website</a>
+                    {/* <a className="nav-btn-inverted" href="https://fast-sierra-54264.herokuapp.com/" rel="noopener noreferrer" target="_blank">View Website</a> */}
                     <a className="nav-btn-inverted" href="https://github.com/Cscharf91/facebook-clone" rel="noopener noreferrer" target="_blank">View Code</a> 
                 </div>
             </div>
