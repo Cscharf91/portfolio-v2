@@ -2,7 +2,7 @@ import React from 'react';
 import Nav from '../Nav';
 import TradeTracker from '../../images/trade-tracker-preview.png';
 import RJS from '../../images/rjs-billing.png';
-import Soapstone from '../../images/soapstone.png';
+import Soapstone from '../../images/soapstone.jpg';
 import Creddit from '../../images/creddit-screen1.png';
 import Creddit2 from '../../images/creddit-screen2.png';
 import './Projects.css';
