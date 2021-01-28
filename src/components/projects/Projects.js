@@ -2,7 +2,7 @@ import React from 'react';
 import Nav from '../Nav';
 import TradeTracker from '../../images/trade-tracker-preview.png';
 import RJS from '../../images/rjs-billing.png';
-import FBClone from '../../images/fb-clone.png';
+import Soapstone from '../../images/soapstone.png';
 import Creddit from '../../images/creddit-screen1.png';
 import Creddit2 from '../../images/creddit-screen2.png';
 import './Projects.css';
@@ -32,6 +32,23 @@ const Projects = () => {
                 <div className="btn-container">
                     <a className="nav-btn-inverted" href="https://trusting-ritchie-77abd5.netlify.app/" rel="noopener noreferrer" target="_blank">View Website</a>
                     <a className="nav-btn-inverted" href="https://github.com/Cscharf91/ceddit-frontend" rel="noopener noreferrer" target="_blank">View Code</a> 
+                </div>
+            </div>
+            <div className="project-container">
+                <p className="project-title">Soapstone:</p>
+                <a href="https://youthful-dijkstra-cb3854.netlify.app/" rel="noopener noreferrer" target="_blank"><img src={Soapstone} alt="fb-clone" className="project-pic" /></a><br />
+                <div className="project-desc">
+                    <p className="project-bio">A tool where you create a structured sentence based off of a prompt for a client's English students. Created with MongoDB, Express, and Svelte.js.</p>
+                    <p>Features:</p>
+                    <ul>
+                        <li>Teacher's portal to create prompts, phrases, categories, and words to add to the database</li>
+                        <li>Flexible sentence creator where the student can creatively answer the prompt.</li>
+                        <li>Simple and easy to use UX for young children to easily create, share, and view their classmates' "Soapstones"</li>
+                    </ul>
+                </div>
+                <div className="btn-container">
+                    <a className="nav-btn-inverted" href="https://youthful-dijkstra-cb3854.netlify.app/" rel="noopener noreferrer" target="_blank">View Website</a>
+                    <a className="nav-btn-inverted" href="https://github.com/Cscharf91/soapbox-client" rel="noopener noreferrer" target="_blank">View Code</a> 
                 </div>
             </div>
             <div className="project-container">
@@ -70,26 +87,6 @@ const Projects = () => {
                 <div className="btn-container">
                     <a className="nav-btn-inverted" href="https://evening-ridge-12770.herokuapp.com/" rel="noopener noreferrer" target="_blank">View Website</a>
                     <a className="nav-btn-inverted" href="https://github.com/Cscharf91/collections-site" rel="noopener noreferrer" target="_blank">View Code</a> 
-                </div>
-            </div>
-            <div className="project-container">
-                <p className="project-title">BookFace:</p>
-                <a href="https://fast-sierra-54264.herokuapp.com/" rel="noopener noreferrer" target="_blank"><img src={FBClone} alt="fb-clone" className="project-pic" /></a><br />
-                <div className="project-desc">
-                    <p className="project-bio">A social network website based off of Facebook. Created in Rails.</p>
-                    <p>Features:</p>
-                    <ul>
-                        <li>Create a user, upload your profile picture, and edit your profile info</li>
-                        <li>Send friend requests with the ability to accept/deny incoming requests</li>
-                        <li>Post, and comment on posts</li>
-                        <li>Make posts public (all users can view them), or visible to friends only</li>
-                        <li>Like posts</li>
-                        <li>Omniauth2 Facebook Login</li>
-                    </ul>
-                </div>
-                <div className="btn-container">
-                    {/* <a className="nav-btn-inverted" href="https://fast-sierra-54264.herokuapp.com/" rel="noopener noreferrer" target="_blank">View Website</a> */}
-                    <a className="nav-btn-inverted" href="https://github.com/Cscharf91/facebook-clone" rel="noopener noreferrer" target="_blank">View Code</a> 
                 </div>
             </div>
         </div>
