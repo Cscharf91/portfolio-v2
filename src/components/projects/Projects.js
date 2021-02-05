@@ -1,7 +1,8 @@
 import React from 'react';
 import Nav from '../Nav';
 import TradeTracker from '../../images/trade-tracker-preview.png';
-import RJS from '../../images/rjs-billing.png';
+import Billing1 from '../../images/billing-ss1.png';
+import Billing2 from '../../images/billing-ss2.png';
 import Soapstone from '../../images/soapstone.jpg';
 import Creddit from '../../images/creddit-screen1.png';
 import Creddit2 from '../../images/creddit-screen2.png';
@@ -13,6 +14,26 @@ const Projects = () => {
       <div className="projects">
         <Nav title="Projects" />
         <div className="projects-section">
+            <div className="project-container">
+                <p className="project-title">Collection Billing Website:</p>
+                <a href="https://zen-darwin-e85c13.netlify.app/" rel="noopener noreferrer" target="_blank"><img src={Billing1} alt="Billing Site" className="project-pic" /></a><br />
+                <a href="https://zen-darwin-e85c13.netlify.app/" rel="noopener noreferrer" target="_blank"><img src={Billing2} alt="Billing Site" className="project-pic" /></a><br />
+                <div className="project-desc">
+                    <p className="project-bio">A collection agency website, a demo of an app I created for a client. Built with Node.js, Express, MongoDB, and React. Try out admin abilities with username: guest@guest.com password: guestpass1.</p>
+                    <p>Features:</p>
+                    <ul>
+                        <li>Full admin-only functionality</li>
+                        <li>Scan PDF info to AWS S3 Bucket and add time-stamped notes to each collection</li>
+                        <li>Alerts on homepage for upcoming client reminders</li>
+                        <li>Generate an invoice letter to send clients based off of collection information- ready to print and address fits in an open envelope.</li>
+                        <li>Various filters for collection search</li>
+                    </ul>
+                </div>
+                <div className="btn-container">
+                    <a className="nav-btn-inverted" href="https://zen-darwin-e85c13.netlify.app/" rel="noopener noreferrer" target="_blank">View Demo</a>
+                    <a className="nav-btn-inverted" href="https://github.com/Cscharf91/collection-client" rel="noopener noreferrer" target="_blank">View Code</a> 
+                </div>
+            </div>
             <div className="project-container">
                 <p className="project-title">Creddit:</p>
                 <a href="https://trusting-ritchie-77abd5.netlify.app/" rel="noopener noreferrer" target="_blank"><img src={Creddit} alt="Creddit preview 1" className="project-pic" /></a><br /><br />
@@ -69,24 +90,6 @@ const Projects = () => {
                 <div className="btn-container">
                     <a className="nav-btn-inverted" href="https://powerful-chamber-15419.herokuapp.com/" rel="noopener noreferrer" target="_blank">View Website</a>
                     <a className="nav-btn-inverted" href="https://github.com/Cscharf91/stock-trade-tracker" rel="noopener noreferrer" target="_blank">View Code</a> 
-                </div>
-            </div>
-            <div className="project-container">
-                <p className="project-title">RJS Billing:</p>
-                <a href="https://evening-ridge-12770.herokuapp.com/" rel="noopener noreferrer" target="_blank"><img src={RJS} alt="RJS-billing" className="project-pic" /></a><br />
-                <div className="project-desc">
-                    <p className="project-bio">A mock-up collection agency website. Made in Rails. Try out admin abilities with username: guest@guest.com password: guestpass1.</p>
-                    <p>Features:</p>
-                    <ul>
-                        <li>Full admin-only functionality</li>
-                        <li>Search for collections by various critieria to narrow down who to contact</li>
-                        <li>Scan images to an AWS S3 Bucket and add time-stamped notes to each collection</li>
-                        <li>Separate sign-up form for billers, which notifies admins</li>
-                    </ul>
-                </div>
-                <div className="btn-container">
-                    <a className="nav-btn-inverted" href="https://evening-ridge-12770.herokuapp.com/" rel="noopener noreferrer" target="_blank">View Website</a>
-                    <a className="nav-btn-inverted" href="https://github.com/Cscharf91/collections-site" rel="noopener noreferrer" target="_blank">View Code</a> 
                 </div>
             </div>
         </div>
