@@ -15,26 +15,6 @@ const Projects = () => {
         <Nav title="Projects" />
         <div className="projects-section">
             <div className="project-container">
-                <p className="project-title">Collection Billing Website:</p>
-                <a href="https://zen-darwin-e85c13.netlify.app/" rel="noopener noreferrer" target="_blank"><img src={Billing1} alt="Billing Site" className="project-pic" /></a><br />
-                <a href="https://zen-darwin-e85c13.netlify.app/" rel="noopener noreferrer" target="_blank"><img src={Billing2} alt="Billing Site" className="project-pic" /></a><br />
-                <div className="project-desc">
-                    <p className="project-bio">A collection agency website, a demo of an app I created for a client. Built with Node.js, Express, MongoDB, and React. Try out admin abilities with username: guest@guest.com password: guestpass1.</p>
-                    <p>Features:</p>
-                    <ul>
-                        <li>Full admin-only functionality</li>
-                        <li>Scan PDF info to AWS S3 Bucket and add time-stamped notes to each collection</li>
-                        <li>Alerts on homepage for upcoming client reminders</li>
-                        <li>Generate an invoice letter to send clients based off of collection information- ready to print and address fits in an open envelope.</li>
-                        <li>Various filters for collection search</li>
-                    </ul>
-                </div>
-                <div className="btn-container">
-                    <a className="nav-btn-inverted" href="https://zen-darwin-e85c13.netlify.app/" rel="noopener noreferrer" target="_blank">View Demo</a>
-                    <a className="nav-btn-inverted" href="https://github.com/Cscharf91/collection-client" rel="noopener noreferrer" target="_blank">View Code</a> 
-                </div>
-            </div>
-            <div className="project-container">
                 <p className="project-title">Creddit:</p>
                 <a href="https://trusting-ritchie-77abd5.netlify.app/" rel="noopener noreferrer" target="_blank"><img src={Creddit} alt="Creddit preview 1" className="project-pic" /></a><br /><br />
                 <a href="https://trusting-ritchie-77abd5.netlify.app/" rel="noopener noreferrer" target="_blank"><img src={Creddit2} alt="Creddit preview 2" className="project-pic" /></a><br />
@@ -53,6 +33,25 @@ const Projects = () => {
                 <div className="btn-container">
                     <a className="nav-btn-inverted" href="https://trusting-ritchie-77abd5.netlify.app/" rel="noopener noreferrer" target="_blank">View Website</a>
                     <a className="nav-btn-inverted" href="https://github.com/Cscharf91/ceddit-frontend" rel="noopener noreferrer" target="_blank">View Code</a> 
+                </div>
+            </div>
+            <div className="project-container">
+                <p className="project-title">Collection Billing Website:</p>
+                <a href="https://zen-darwin-e85c13.netlify.app/" rel="noopener noreferrer" target="_blank"><img src={Billing2} alt="Billing Site" className="project-pic" /></a><br />
+                <div className="project-desc">
+                    <p className="project-bio">A collection agency website, a demo of an app I created for a client. Built with Node.js, Express, MongoDB, and React. Try out admin abilities with username: guest@guest.com password: guestpass1.</p>
+                    <p>Features:</p>
+                    <ul>
+                        <li>Full admin-only functionality</li>
+                        <li>Scan PDF info to AWS S3 Bucket and add time-stamped notes to each collection</li>
+                        <li>Alerts on homepage for upcoming client reminders</li>
+                        <li>Generate an invoice letter to send clients based off of collection information- ready to print and address fits in an open envelope.</li>
+                        <li>Various filters for collection search</li>
+                    </ul>
+                </div>
+                <div className="btn-container">
+                    <a className="nav-btn-inverted" href="https://zen-darwin-e85c13.netlify.app/" rel="noopener noreferrer" target="_blank">View Demo</a>
+                    <a className="nav-btn-inverted" href="https://github.com/Cscharf91/collection-client" rel="noopener noreferrer" target="_blank">View Code</a> 
                 </div>
             </div>
             <div className="project-container">
